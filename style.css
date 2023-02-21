@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -65,10 +68,11 @@ a:hover{
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #fff;
-    color: #ff523b;
-    border: 1px solid #ff523b;
+    background: #915a5a;
 }
 .header{
     background: radial-gradient(#fff,#ffd6d6);
+}
+.header .row{
+    margin-top: 70px;
 }
