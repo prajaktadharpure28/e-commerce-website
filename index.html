@@ -30,6 +30,7 @@
                     </ul>
                 </nav>
                 <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
             <div class="row">
                 <div class="col-2">
@@ -334,6 +335,7 @@
                         <img src="images/play-store.png" alt="">
                         <img src="images/app-store.png" alt="">
                 </div>
+                </div>
                 <div class="footer-col-2">
                     <img src="images/logo-white.png" alt="">
                     <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
@@ -358,10 +360,24 @@
                 </div>
             </div>
             <hr>
-            <p class="copy-right">© 2023 Designed by <a href="">Prajakta</a></p>
+            <p class="copyright">© 2023 Designed by <a href="">Prajakta</a></p>
         </div>
     </div>
 
-</body>
+    <!-- js for toggle menu -->
 
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "800px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
 </html>
