@@ -143,4 +143,19 @@ h4{
     font-size: 25px;
     font-weight: bold;
 }
-
+/* offer */
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+    text-align: center;
+}
+.offer-img .col-2{
+    padding: 50px;
+}
+.offer-img img{
+    max-width: 100%;
+}
+small{
+    color: #555;
+}
