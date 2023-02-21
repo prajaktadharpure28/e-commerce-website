@@ -195,3 +195,21 @@ small{
     font-size: 12px;
     margin: 12px 0;
 }
+
+/* brands */
+
+.brands{
+    margin: 100px auto;
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}
