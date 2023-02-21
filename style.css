@@ -65,7 +65,9 @@ a:hover{
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #563434;
+    background: #fff;
+    color: #ff523b;
+    border: 1px solid #ff523b;
 }
 .header{
     background: radial-gradient(#fff,#ffd6d6);
